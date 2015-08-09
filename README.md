@@ -14,6 +14,9 @@ a [Sails](http://sailsjs.org) application demonstrating how to utilize OAuth and
     2. **TWITTER_APP_SECRET**: An app secret for Twitter which you are utilizing -- see [Twitter Apps](https://apps.twitter.com)
     3. **APP_BEARER_SECRET**: A secret value of your choice, used to encode jwt's for the Bearer Strategy
 
+# Twitter App Setup
+* Ensure that the callback is http://127.0.0.1:1337/twitter/callback
+
 # Usage
 
 ## Twitter
