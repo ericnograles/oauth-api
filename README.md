@@ -42,18 +42,21 @@ a [Sails](http://sailsjs.org) application demonstrating how to utilize OAuth and
 ## User - Profile (Using Twitter)
 
 **Note: This requires a valid access_token from any of the methods above**
+
 1. GET to http://127.0.0.1:1337/user/profile?twitterUsername=[your twitter username]
 2. Verify you get a user profile object
 
 ## User - Profile (Using Email)
 
 **Note: This requires a valid access_token from any of the methods above**
+
 1. GET to http://127.0.0.1:1337/user/profile?email=[your email]
 2. Verify you get a user profile object
 
 ## User - Tweets From statuses/user_timeline (Using Twitter)
 
 **Note: This requires a valid access_token from any of the methods above**
+
 1. GET to http://127.0.0.1:1337/user/tweets?twitterUsername=[a twitter username]
 2. Verify you get tweets
 
