@@ -60,6 +60,9 @@ a [Sails](http://sailsjs.org) application demonstrating how to utilize OAuth and
 1. GET to http://127.0.0.1:1337/user/tweets?twitterUsername=[a twitter username]
 2. Verify you get tweets
 
+# Known Gaps
+
+* Associate a Twitter account to a locally registered user
 
 # Libraries Used
 * [passport](https://www.npmjs.com/package/passport)
