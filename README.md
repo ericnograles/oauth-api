@@ -13,6 +13,7 @@ a [Sails](http://sailsjs.org) application demonstrating how to utilize OAuth and
     1. **TWITTER_APP_ID**: An app ID for Twitter which you are utilizing -- see [Twitter Apps](https://apps.twitter.com)
     2. **TWITTER_APP_SECRET**: An app secret for Twitter which you are utilizing -- see [Twitter Apps](https://apps.twitter.com)
     3. **APP_BEARER_SECRET**: A secret value of your choice, used to encode jwt's for the Bearer Strategy
+4. sails lift (or node app.js)
 
 # Twitter App Setup
 * Ensure that the callback is http://127.0.0.1:1337/twitter/callback
