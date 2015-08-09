@@ -2,6 +2,10 @@
 
 a [Sails](http://sailsjs.org) application demonstrating how to utilize OAuth and local user management
 
+# Prerequisites
+1. Install MongoDB locally
+2. Node + npm 0.10+
+
 # Instructions
 1. git clone repo
 2. npm install
